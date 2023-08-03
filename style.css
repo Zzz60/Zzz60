@@ -1,0 +1,195 @@
+* body {
+  margin: 0;
+  padding: 0;
+  
+}
+body {
+  background-color: #f8fbf4;
+}
+
+@font-face {
+  font-family: 'KaushanScript-Regular';
+  src: url(font/KaushanScript-Regular.otf);
+}
+
+.container {
+  position: relative;
+  width: 70%;
+  background-color: transparent;
+  margin: auto;
+}
+
+/** header **/
+.header {
+  height: 120px;
+  width: 98%;
+  background-color: transparent;
+  position: relative;
+  top: 60px;
+}
+.header img {
+  width: 200px;
+  height: 200px;
+  border-radius: 35% ;
+  position: absolute;
+  left: 50px;
+  bottom: -40px;
+  box-shadow: 0 10px 30px -20px #000000 ;
+  z-index: 999;
+}
+
+.navigation {
+  position: absolute;
+  right: 20px;
+  top: 60px;
+}
+.navigation ul li {
+  list-style: none;
+  display: inline-block;
+}
+.navigation li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  padding: 5px 25px;
+  border-right: 1px dashed #000000;
+}
+/** pseudo class **/
+.navigation a:hover {
+  background-color: #000000;
+  font-size: 22px;
+  color: #ffffff;
+  transition: .5s;
+  border-radius: 20%;
+}
+.navigation li:last-child a {
+  border-right: none;
+}
+.header img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 20px 10px -10px #000000 ;
+  transition: .7s;
+}
+.header h1:hover {
+  transform: scale(1.1);
+  text-shadow: 5px 20px 10px #000000 ;
+  transition: .7s;
+}
+.kolom a:hover {
+  font-weight: bold;
+  color: #1f29bd;
+}
+/** pseudo class end **/
+
+.judul {
+  border-radius: 3%;
+  position: relative;
+  height: 60px;
+  top: 122px;
+  width: 100%;
+  background-color: #afca6c;
+  box-shadow: 0 5px 10px -4px #424b3c;
+}
+.judul h1 {
+  position: absolute;
+  left: 10px;
+  font-family: 'KaushanScript-Regular';
+  font-size: 40px;
+  bottom: -25px;
+  left: 42%;
+  font-style: italic;
+  text-shadow: 8px 5px 0px #ffffff;
+}
+.hero {
+  position: relative;
+  top: 125px;
+}
+.hero img {
+  border: 2px solid #6c9c35;
+  width: 97.5%;
+  height: 300px;
+  background-size: cover;
+}
+.hero h1 {
+  position: absolute;
+  bottom: 40px;
+  color: #ffffff;
+  left: 50px;
+}
+/** hero end **/
+
+.content {
+  width: 100%;
+  position: relative;
+  bottom: -100px;
+}
+.content h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 23px;
+  padding: 10px 20px ;
+}
+.kolom a {
+  padding: 0 50px;
+  overflow: hidden;
+  text-decoration: none;
+  color: #e6ac0c;
+  font-size: 17px;
+  font-weight: bold;
+}
+.kolom {
+  padding: 0 30px 200px 10px ;
+  width: 250px;
+  height: 100px;
+  float: left;
+  margin: 10px;
+  text-align: justify;
+}
+.kolom p {
+  line-height: 25px;
+}
+/** footer **/
+.footer {
+  width: 98%;
+  height: 50px;
+  background-color: #6c9c35;
+  float: left;
+  margin-top: 100px;
+}
+.footer h5 {
+  padding: 0 10px 10px 10px;
+}
+.menu {
+  float: left;
+  margin-top: -68px ;
+  margin-left: 100px;
+}
+.menu ul li {
+  padding: 2px 10px;
+  display: inline-block;
+}
+.menu  a{
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 3px;
+}
+.menu a:hover {
+  font-size: 20px;
+  background-color: #e2d9d9;
+  transition: .5s;
+}
+.menu li:first-child a {
+  color: #1f29bd;
+}
+.menu li:nth-child(2) a {
+  color: #1aace6;
+}
+.menu li:nth-child(3) a {
+  color: #62e60a;
+}
+.menu li:last-child a {
+  color: #d11392;
+}
+
